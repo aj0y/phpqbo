@@ -20,7 +20,7 @@ Add a dependency on `aj0y/phpqbo` to your project's `composer.json` file.
 ```javascript
 {
     "require": {
-        "aj0y/phpqbo": "1.*"
+        "beethoven/phpqbo": "0.0.1-alpha"
     }
 }
 ```
