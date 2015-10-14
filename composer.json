@@ -15,7 +15,7 @@
     },
     "autoload": {
       "psr-4": { 
-        "phpqbo\\": "src/" 
+        "phpqbo\\": "src/"
       }
     }
 }
