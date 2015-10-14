@@ -11,12 +11,8 @@ use phpqbo\Services\InvoiceService;
  */
 class Invoice extends Entity
 {
-  const ID = 'Id';
-  const SYNC_TOKEN = 'SyncToken';
   const METADATA = 'MetaData';
 
-  protected $id;
-  protected $syncToken;
   protected $metadata = array();
   protected $docNumber;
   protected $txnDate; // The date entered by the user when this transaction occurred.
@@ -28,7 +24,10 @@ class Invoice extends Entity
   protected $exchangeRef;
   protected $privateNote;
   protected $linkedTxn = array();
-  /** @var Line[] */
+  /**
+   * an array of Line items
+   * @var Item[]
+   */
   protected $lineItems = array();
 
 
