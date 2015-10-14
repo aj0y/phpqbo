@@ -15,7 +15,7 @@ Install
 
 ### Composer
 
-Add a dependency on `aj0y/phpqbo` to your project's `composer.json` file.
+Add a dependency on `beethoven/phpqbo` to your project's `composer.json` file.
 
 ```javascript
 {
