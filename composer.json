@@ -1,25 +1,17 @@
 {
-name: "ajoy/phpqbo",
-description: "A PHP library to access Quickbooks online/QBO",
-keywords: [
-"php",
-"qbo",
-"quickbooks",
-"intuit",
-"api"
-],
-license: "MIT",
-authors: [
-{
-name: "Ajoy Sojan"
-}
-],
-autoload: {
-classmap: [
-"src/"
-]
-},
-require: {
-php: ">=5.6",
-}
+    "name": "ajoy/phpqbo",
+    "description": "A PHP library to access Quickbooks online/QBO.",
+    "keywords": ["php","qbo","quickbooks","intuit","api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ajoy Sojan"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "php": ">=5.6",
+    }
 }
