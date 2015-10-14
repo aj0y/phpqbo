@@ -3,6 +3,7 @@
 namespace phpqbo\Entities\Transaction;
 
 use phpqbo\Entities\Entity;
+use phpqbo\Entities\NameList\Item;
 use phpqbo\Services\InvoiceService;
 
 /**
