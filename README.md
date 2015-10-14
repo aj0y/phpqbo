@@ -2,6 +2,8 @@ PHP-QBO
 ==========================
 A PHP library to access Quickbooks online / QBO.
 
+- PSR compatible
+
 
 Requirements
 ------------
