@@ -1,21 +1,21 @@
 {
-  "name": "ajoy/phpqbo",
+  "name": "mozart/phpqbo",
     "description": "A PHP library to access Quickbooks online/QBO.",
     "keywords": ["php","qbo","quickbooks","intuit","api"],
     "version": "0.0.1-alpha",
     "license": "MIT",
     "authors": [
-    {
-      "name": "Ajoy Sojan"
-    }
-  ],
+      {
+        "name": "Ajoy Sojan"
+      }
+    ],
     "require": {
       "php": ">=5.6",
-      "guzzlehttp/guzzle": "~6.0",
+      "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
-      "psr-0": {
-        "phpqbo\\": "src/"
+      "psr-4": { 
+        "phpqbo\\": "src/" 
       }
     }
 }
