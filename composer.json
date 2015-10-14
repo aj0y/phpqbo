@@ -1,5 +1,5 @@
 {
-  "name": "mozart/phpqbo",
+  "name": "beethoven/phpqbo",
     "description": "A PHP library to access Quickbooks online/QBO.",
     "keywords": ["php","qbo","quickbooks","intuit","api"],
     "version": "0.0.1-alpha",
