@@ -1,9 +1,9 @@
 # phpqbo
 PHP library to access Quickbooks online (a.k.a QBO)
 
-PHPQBO
+PHP-QBO
 ==========================
-A PHP library to access Quickbooks online (a.k.a QBO).
+A PHP library to access Quickbooks online / QBO.
 
 
 Requirements
