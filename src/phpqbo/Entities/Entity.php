@@ -7,5 +7,15 @@ namespace phpqbo\Entities;
 */
 abstract class Entity
 {
+	public $attributes = array();
 
+	public function validate()
+	{
+
+	}
+
+	public function isNew()
+	{
+		
+	}
 }
