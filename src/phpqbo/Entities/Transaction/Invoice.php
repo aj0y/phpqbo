@@ -1,9 +1,11 @@
 <?php
 
-
 namespace phpqbo\Entities\Transaction;
 
-class Invoice
+/**
+* Invoice Transactio nEntity Class
+*/
+class Invoice extends Entity
 {
 
 }

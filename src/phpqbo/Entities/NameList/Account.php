@@ -2,7 +2,10 @@
 
 namespace phpqbo\Entities\NameList;
 
-class Account
+/**
+* Account Name List Entity Class
+*/
+class Account extends Entity
 {
-	
+
 }
