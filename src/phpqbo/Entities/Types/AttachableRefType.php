@@ -2,15 +2,11 @@
 
 namespace phpqbo\Entities\Types;
 
-use phpqbo\Entities\Type;
-
 /**
- * Class IdType
+ * Class AttachableRefType
  * @package phpqbo\Entities\Types
  */
-class IdType extends Type
+class AttachableRefType extends ReferenceType
 {
 
 }
-
-

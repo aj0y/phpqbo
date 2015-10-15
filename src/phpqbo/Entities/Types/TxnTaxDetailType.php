@@ -2,15 +2,12 @@
 
 namespace phpqbo\Entities\Types;
 
-use phpqbo\Entities\Type;
-
 /**
- * Class IdType
+ * Class TxnTaxDetailType
  * @package phpqbo\Entities\Types
  */
-class IdType extends Type
+class TxnTaxDetailType extends Type
 {
 
 }
-
 

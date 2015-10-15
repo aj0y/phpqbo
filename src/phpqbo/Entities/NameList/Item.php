@@ -1,7 +1,6 @@
 <?php
 
 namespace phpqbo\Entities\NameList;
-ß
 use phpqbo\Entities\Entity;
 use phpqbo\Entities\Types\ReferenceType;
 
