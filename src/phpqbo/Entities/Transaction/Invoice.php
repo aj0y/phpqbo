@@ -104,6 +104,7 @@ class Invoice extends Entity
   public function create(InvoiceService $service = null)
   {
     $this->init($service);
+    $this->service->create($this);
   }
 
   /**
@@ -112,6 +113,7 @@ class Invoice extends Entity
   public function delete(InvoiceService $service = null)
   {
     $this->init($service);
+    $this->service->delete($this);
   }
 
   /**
@@ -121,13 +123,17 @@ class Invoice extends Entity
   public function send($email, InvoiceService $service = null)
   {
     $this->init($service);
+    $this->service->send($email, $this);
   }
 
   /**
    * @param InvoiceService|null $service
+   * @return string
    */
   public function getPDF(InvoiceService $service = null)
   {
     $this->init($service);
+    $pdf = $this->service->getPDF($this);
+    return $pdf;
   }
 }

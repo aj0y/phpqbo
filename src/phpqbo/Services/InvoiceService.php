@@ -5,8 +5,9 @@ namespace phpqbo\Services;
 use phpqbo\Entities\Transaction\Invoice;
 
 /**
-* Account Name List nEntity Class
-*/
+ * Invoice Service Class
+ * Has actions that can be taken on an Invoice Entity
+ */
 class InvoiceService extends Service
 {
     public function __construct($version = Service::VERSION_3)
@@ -32,28 +33,45 @@ class InvoiceService extends Service
 
     }
 
+    /**
+     * @param int $invoiceId
+     */
     public function get($invoiceId)
     {
 
     }
 
+    /**
+     * @param Invoice $invoice
+     */
     public function delete(Invoice $invoice)
     {
 
     }
 
-    public function send(Invoice $invoice)
+    /**
+     * @param string  $email
+     * @param Invoice $invoice
+     */
+    public function send($email, Invoice $invoice)
     {
 
     }
 
+    /**
+     * @param Invoice $invoice
+     */
     public function update(Invoice $invoice)
     {
 
     }
 
+    /**
+     * @param Invoice $invoice
+     * @return string
+     */
     public function getPDF(Invoice $invoice)
     {
-
+        return '';
     }
 }
