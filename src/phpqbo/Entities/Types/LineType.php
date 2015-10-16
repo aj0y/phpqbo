@@ -2,6 +2,8 @@
 
 namespace phpqbo\Entities\Types;
 
+use phpqbo\Entities\Type;
+
 /**
  * Class LineType
  * @package phpqbo\Entities\Types
@@ -20,6 +22,7 @@ class LineType extends Type
   protected $linkedTxn = array();
   /** @var  LineDetailTypeEnum */
   protected $detailType;
+
 
   protected $salesLineItemDetail;
   /** @var  CustomFieldType[] */

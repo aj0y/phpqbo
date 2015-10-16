@@ -4,6 +4,12 @@ namespace phpqbo\Entities\Transaction;
 
 use phpqbo\Entities\Entity;
 use phpqbo\Entities\NameList\Item;
+use phpqbo\Entities\Types\CustomFieldType;
+use phpqbo\Entities\Types\DateType;
+use phpqbo\Entities\Types\LineType;
+use phpqbo\Entities\Types\LinkedTxnType;
+use phpqbo\Entities\Types\ModificationMetaDataType;
+use phpqbo\Entities\Types\ReferenceType;
 use phpqbo\Services\InvoiceService;
 
 /**
@@ -56,9 +62,9 @@ class Invoice extends Entity
   protected $linkedTxn = array();
   /**
    * an array of Line items
-   * @var Item[]
+   * @var LineType[]
    */
-  protected $lineItems = array();
+  protected $linesArray = array();
 
 
   public $attributes = array(
@@ -80,6 +86,8 @@ class Invoice extends Entity
       return true;
     }
     $this->service = new InvoiceService();
+
+    return true;
   }
 
   /**

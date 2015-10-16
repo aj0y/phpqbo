@@ -2,6 +2,8 @@
 
 namespace phpqbo\Entities\Types;
 
+use phpqbo\Entities\Type;
+
 /**
  * Class DateType
  * @package phpqbo\Entities\Types

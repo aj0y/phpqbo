@@ -2,6 +2,8 @@
 
 namespace phpqbo\Entities\Types;
 
+use phpqbo\Entities\Type;
+
 /**
  * Class SalesLineItemDetailType
  * @package phpqbo\Entities\Types
