@@ -26,4 +26,9 @@ abstract class Service
   {
     $this->version = $version;
   }
+
+  public function request()
+  {
+
+  }
 }

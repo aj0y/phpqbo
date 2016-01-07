@@ -8,7 +8,6 @@ namespace phpqbo;
 class QBO 
 {
   const V3_VERSION = '3';
-  const 
 
   public function __constructor()
   {

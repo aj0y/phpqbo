@@ -3,6 +3,7 @@
 namespace phpqbo\Entities\Types;
 
 use phpqbo\Entities\Type;
+use phpqbo\Entities\Types\LineTypes\LineDetailTypeEnum;
 
 /**
  * Class LineType
@@ -14,7 +15,7 @@ class LineType extends Type
   protected $id = '';
   /** @var  int */
   protected $lineNum = 0;
-  /** @var   */
+  /** @var string  */
   protected $description = '';
 
   protected $amount = 0.0;
@@ -23,14 +24,7 @@ class LineType extends Type
   /** @var  LineDetailTypeEnum */
   protected $detailType;
 
-
-  protected $salesLineItemDetail;
   /** @var  CustomFieldType[] */
   protected $customField;
 }
 
-
-class LineDetailTypeEnum
-{
-  const SALES_ITEM_LINE_DETAIL = 'SalesItemLineDetail';
-}

@@ -3,7 +3,6 @@
 namespace phpqbo\Entities\Transaction;
 
 use phpqbo\Entities\Entity;
-use phpqbo\Entities\NameList\Item;
 use phpqbo\Entities\Types\CustomFieldType;
 use phpqbo\Entities\Types\DateType;
 use phpqbo\Entities\Types\LineType;
